@@ -1,0 +1,39 @@
+$pink: #ee2174;
+@mixin flex{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+@mixin flex-between{
+  justify-content: space-between;
+}
+@mixin flex-around{
+  justify-content: space-around;
+}
+@mixin flex-center{
+  justify-content: center;
+}
+@mixin fixed-top{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}
+@mixin fixed-bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+}
+@mixin padding-box{
+  box-sizing:border-box;
+}
+@mixin border_b{
+  border-bottom: 10px solid #f4f4f4;
+}
+@mixin border_t_line{
+  border-top: 1px solid #d9d9d9;
+}
+@mixin border_b_line{
+  border-bottom: 1px solid #d9d9d9;
+}
